@@ -5,6 +5,7 @@
 This app is configured as a Flask application that renders the `fresh_tomatoes.html` inside the `templates` folder.
 
 **Seeing the final site**
+
 1. Go to `someideastoshare.xyz` to access the site OR
 2. Go to `fresh_tomatoes.html` inside the `templates` folder to access the same site.
 
