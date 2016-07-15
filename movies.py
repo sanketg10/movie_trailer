@@ -1,3 +1,4 @@
+#This file defines the Movie class which is used in movie_list.py to create different movie objects
 import webbrowser
 
 class Movie:

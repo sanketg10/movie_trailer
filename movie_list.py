@@ -1,3 +1,7 @@
+# This file presents all the different movies which have been created using Movie class
+# This Movie class is imported from movies.py and then sent to fresh_tomatoes.py for creating html file
+# The Movie object contains title, story, poster_image, youtube URL to be displayed in the file
+
 import movies
 import fresh_tomatoes
 
@@ -39,6 +43,8 @@ queen = movies.Movie("Queen","Story of impossible climb made possible",
 
 movie_list = [sultan, star_wars, bajrangi_bhaijaan, shock_awe, meru,queen,
               gladiator, twelve_angry_men, finding_nemo]
+
+#Sending the movie_list to fresh_tomatoes which has the function open_movies_page
 fresh_tomatoes.open_movies_page(movie_list)
 
 
