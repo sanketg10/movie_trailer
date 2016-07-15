@@ -1,4 +1,4 @@
-# movie_trailer
+# Movie Trailer
 
 **Overview:**
 
