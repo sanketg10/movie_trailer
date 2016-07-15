@@ -17,8 +17,8 @@ This app shows all my favorite movie sites :) It is configured as a Flask applic
 
 **Running as a Flask app:**
 
-1. First set up the virtual environment using `. ./movie_trailer/bin/activate`
-2. Run `pip install -r requirements.txt`
+1. Run `pip install -r requirements.txt`
+2. Install virtual environment by `virtualenv movie_trailer` and then activate it by using `. ./movie_trailer/bin/activate`
 3. Run the python file using `python movie_list.py`. This will create the html file in `templates` folder.
 4. Run `python app.py`. This will start the site on the local host.
 5. This Flask app has been deployed using Heroku and the custom domain used is `someideastoshare.xyz` which was bought on Namecheap
