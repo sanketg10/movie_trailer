@@ -1,6 +1,7 @@
 # movie_trailer
 
-Overview:
+**Overview:**
+
 This app is configured as a Flask application that renders the `fresh_tomatoes.html` inside the `templates` folder.
 
 **Seeing the final site**
