@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = {{ url_for('static',filename = 'style.css') }}>
+</head>
+<body>
+    <div class="container">
+        <div class= "row header">
+            <div class= "col-md-6 col-xs-3"><img class="logo img-responsive" src={{ url_for('static', filename='Logo2.jpg') }} /></div>
+            <div class= "col-md-6 col-xs-9 text-right">
+                <h1 class="name text-uppercase">Sanket Gupta</h1>
+                <h4 class="title text-uppercase">Full Stack Developer</h4>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-12">
+               <hr style="width: 100%; color: #7d97ad; height: 4px; background-color:#7d97ad;" />
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-12">
+                <img class= "img-responsive bodyimage" src = {{ url_for('static', filename='mainbody.jpg') }} alt ="Full stack developer image" />
+            </div>
+
+        </div>
+        <div class = "row">
+            <div class = "col-md-12">
+                <h2 class= "work">Featured Work</h2>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-4">
+                <a target="_blank" href="/movietrailer">
+                <img class="imageproj img-responsive" src={{ url_for('static', filename='trailer.jpg') }} alt = "logo for movie trailer website"/>
+                <h3 class= "project text-uppercase">Movie Trailers</h3>
+                </a>
+                <p><a class= "git1" target="_blank" href="https://github.com/sanketg10/movie_trailer">https://github.com/sanketg10/movie_trailer</p>
+            </div>
+            <div class = "col-md-4">
+                <a target="_blank" href="#">
+                <img class="imageproj img-responsive" src={{ url_for('static', filename='mainbody2.jpg') }} alt="logo for portfolio site"/>
+                <h3 class= "project text-uppercase">My Portfolio</h3>
+                <p><a class= "git1" target="_blank" href="https://github.com/sanketg10/">https://github.com/sanketg10/ </p>
+                </a>
+            </div>
+            <div class = "col-md-4">
+                <img class="imageproj img-responsive" src={{ url_for('static', filename='Upcoming.jpg') }} alt="logo for upcoming project"/>
+                <h3 class= "project text-uppercase">Upcoming!</h3>
+                <p><a class= "git1" target="_blank" href="https://github.com/sanketg10/">https://github.com/sanketg10/</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

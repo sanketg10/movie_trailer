@@ -9,6 +9,11 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Looks for this file in templates folder
+    return render_template("index.html")
+
+@app.route('/movietrailer')
+def movies():
+    # Looks for this file in templates folder
     return render_template("fresh_tomatoes.html")
 
 
