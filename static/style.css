@@ -5,6 +5,13 @@
     margin-top:3%;
     width:80%;
  }
+
+@media screen and (max-width: 600px) {
+.container {
+    width:100%;
+ }
+  }
+
 body {
     font-family: 'Lato', sans-serif;
  }
